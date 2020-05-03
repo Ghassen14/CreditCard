@@ -1,0 +1,44 @@
+.credit-card {
+  width: 400px;
+  background-color: rgb(206, 0, 51);
+  color: white;
+  border-radius: 10px;
+  padding: 0 10px;
+  margin-left: 50px;
+}
+.credit-card-title {
+  text-align: right;
+  font-style: italic;
+}
+.credit-card-content {
+  display: flex;
+}
+.credit-card-text {
+  flex: 1;
+  padding-right: 10px;
+}
+.credit-card-chip {
+  width: 50px;
+  height: 40px;
+  background-color: goldenrod;
+  border-radius: 10px;
+}
+.credit-card-number {
+}
+.credit-card-valid-thru {
+  text-align: right;
+}
+.credit-card-holder-name {
+  padding: 0;
+  font-size: 1.2em;
+  color: goldenrod;
+}
+.credit-card-logo {
+  width: 70px;
+  display: flex;
+  align-items: flex-end;
+  padding-bottom: 10px;
+}
+.credit-card-logo img {
+  width: 100%;
+}
